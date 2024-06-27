@@ -1,19 +1,15 @@
-var myVillage = 'jhenaidah'
-console.log(typeof myVillage);
 
 
+var myVillage ='9756865486'
+console.log(typeof myVillage)
 
-var myFather =`bashar`
-console.log(myFather);
+var mobName = 06865432;
+console.log(typeof mobName)
 
-var myMother = "khatun"
-console.log(myMother);
-
-
-
-
+var boolitype = true;
+console.log(boolitype)
 
 
-
-
+var moontype =false;
+console.log( typeof moontype)
 

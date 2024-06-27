@@ -1,1 +1,2 @@
-console.log("her power project")
+var myAge = 21
+console.log(myAge)

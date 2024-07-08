@@ -11,25 +11,32 @@
 <script>
 
 
-var myLaptop={
+var deviceName =[
 
-brand:"hp",
-display:12.5,
-isLaptop:true,
+"realme",
+"redmi",
+"oppo",
+"lami",
+"alif"
 
-ram:"8 GB",
 
-processor:"core i7",
+]
+// document.write(deviceName[0])
 
-isSSD:true
 
+
+
+
+for (x=0; x<deviceName.length;x=x+1){
+
+document.write(deviceName[x]+"<br>")
 
 }
 
-for(var item in myLaptop){
 
-    document.write(myLaptop [item]+"<br>")
-}
+
+
+
 
 </script>
 

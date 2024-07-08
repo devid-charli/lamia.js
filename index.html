@@ -8,39 +8,30 @@
 <body>
 
 
-
-<script>
-function myMakeup(){
-
-    return "lami"
-}
-
-
-newValue=myMakeup()+"sithi";
-
-
-document.write(newValue)
-
-</script>
-
-
 <script>
 
 
-function counnumber(num1 , num2){
+var myLaptop={
 
-return num1 * num2;
+brand:"hp",
+display:12.5,
+isLaptop:true,
+
+ram:"8 GB",
+
+processor:"core i7",
+
+isSSD:true
+
 
 }
 
-newValue=counnumber(55 , 54)+0;
-document.write(newValue);
+for(var item in myLaptop){
 
-
-
+    document.write(myLaptop [item]+"<br>")
+}
 
 </script>
-
 
 
 

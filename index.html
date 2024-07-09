@@ -10,10 +10,17 @@
 
 <script>
 
-var person1="herro alom";
-var person2=Array.from(person1);
-document.write(person2[3]);
+var banglaMarks =[33,24,57,33,98,23,67,45,78,80];
 
+function check(value){
+
+return value>33;
+
+
+
+}
+
+document.write(banglaMarks.filter(check))
 
 
 </script>
